@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Lora:ital@1&family=Open+Sans:wght@300;700&family=Oswald&family=Roboto+Slab:wght@600&family=Roboto:wght@300;400&family=Rubik:wght@500&family=Shantell+Sans:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+#navbarSupportedContent ul li{
+    padding:0px 30px;
+}
+#navbarSupportedContent ul li a{
+    font-size: 18px;
+    color:black;
+    border-radius:15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbarSupportedContent ul li a:hover{
+    font-size: 18px;
+    color:white;
+    border:1px solid gray;
+    border-radius:15px;
+    background-color:black;
+}
+
+.logoimage img{
+    height: 150px;
+}
+
+.container{
+    margin-top:80px;
+    display: flex;
+    height:400px;
+    flex-direction:column;
+    border-radius:20px;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+
+}
+
+.heading{
+    margin:auto;
+    font-family: 'Roboto Slab', serif;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.formbox{
+    margin:auto;
+    border-radius:30px;
+    background:white;
+}
+
+.formbox input{
+    margin-top:20px;
+    border-radius:20px;
+}
+
+.formbox select{
+    margin-top:20px;
+    border-radius:20px;
+}
+
+#btn{
+    margin-bottom:20px;
+}
